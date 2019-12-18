@@ -7,7 +7,8 @@ class App extends React.Component {
     constructor(){
         super();
         this.getWeather=this.getWeather.bind(this);
-        this.API_KEY="e6bb46a5b30d6dfe3fe0037858930bdd";
+        //add API_KEY--------------------------------------------------
+        this.API_KEY="e6bb46a5b30d6dfe3fe0037858-----";
         this.state={
             days:undefined
         }
