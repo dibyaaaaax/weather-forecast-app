@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+body {
+  margin: 0;
+  font-size:13px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#ebebeb;
+  text-align: center;
+  display:inline-block;
+font-family:'Bree Serif';
+height:100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.weather-card{
+border: 1px solid #ececec;
+border-radius:3%;
+margin: 5px;
+margin-top: 10%;
+padding: 5px;
+padding-top:0;
+padding-bottom:0;
+display: inline-block;
+background-color: white;
+width:150px;
+}
+
+.weather-card:hover{
+    width:170px;
+    height:270px;
+    background-color:#f5f6fa;
+}
+
+.day-img{
+text-align:center;
+display:inline-block;
+width:150px}
+
+img{
+width:80px;
+height:80px;
+}
+
+.high-temp{
+color:#cf9942;
+text-align:left;
+padding-left:15px;}
+
+.low-temp{
+color:#2d47ad;
+text-align:left;
+padding-left:15px;
+}
+
+.day{
+font-size:18px;
+color:#726875}
+
+.form-div{
+max-width:30;
+width:30%;
+float:left;
+min-height:100%;
+margin:100px 0;
+
+padding:10px;
+position:fixed;
+}
+
+input{
+width:100%;
+padding: 12px;
+padding-left:50px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family:'Bree Serif';
+  background: url('https://img.icons8.com/bubbles/50/000000/worldwide-location.png') no-repeat 0px;
+}
+
+button{
+    background-color: #4CAF50;
+      border: none;
+      border-radius:7px 0;
+      color: white;
+      padding: 8px 32px;
+      text-decoration: none;
+      margin: 10px 2px;
+      cursor: pointer;
+      font-family:'Bree Serif';
+}
+
+
+.weatherCards{
+    width:60%;
+   display:in-line block;
+    float:right;
+}
+
+h1{
+float:left;
+position: fixed;
+z-index:1;
+font-family: 'Righteous', cursive;
+
+
+}
